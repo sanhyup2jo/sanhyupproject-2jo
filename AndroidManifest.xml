@@ -21,10 +21,38 @@
         <activity android:name=".start">
 
         </activity>
-        <activity android:name=".clientInfo"
-            android:label="@string/client_info">
+        <activity android:name=".clientInfo">
 
         </activity>
+        <activity android:name=".daily">
+
+        </activity>
+
+        <receiver
+
+            android:name=".MainActivity$BReceiver"
+
+            android:enabled="true"
+
+            android:exported="false"
+
+            android:label="BReceiver"
+
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+            </intent-filter>
+
+        </receiver>
+        <service android:name=".dailyservice"></service>
+
     </application>
 
-</manifest>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+
+
+
+    </manifest>
