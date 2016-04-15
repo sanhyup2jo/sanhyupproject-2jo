@@ -1,0 +1,39 @@
+04-14 00:33:26.906 6891-6891/com.example.faceandme E/AndroidRuntime: FATAL EXCEPTION: main
+                                                                     Process: com.example.faceandme, PID: 6891
+                                                                     java.lang.RuntimeException: Unable to instantiate receiver com.example.faceandme.MainActivity$BReceiver: java.lang.InstantiationException: class com.example.faceandme.MainActivity$BReceiver has no zero argument constructor
+                                                                         at android.app.ActivityThread.handleReceiver(ActivityThread.java:2983)
+                                                                         at android.app.ActivityThread.access$1800(ActivityThread.java:177)
+                                                                         at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1526)
+                                                                         at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                                         at android.os.Looper.loop(Looper.java:145)
+                                                                         at android.app.ActivityThread.main(ActivityThread.java:5951)
+                                                                         at java.lang.reflect.Method.invoke(Native Method)
+                                                                         at java.lang.reflect.Method.invoke(Method.java:372)
+                                                                         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+                                                                         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+                                                                      Caused by: java.lang.InstantiationException: class com.example.faceandme.MainActivity$BReceiver has no zero argument constructor
+                                                                         at java.lang.Class.newInstance(Class.java:1641)
+                                                                         at android.app.ActivityThread.handleReceiver(ActivityThread.java:2978)
+                                                                         at android.app.ActivityThread.access$1800(ActivityThread.java:177)?
+                                                                         at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1526)?
+                                                                         at android.os.Handler.dispatchMessage(Handler.java:102)?
+                                                                         at android.os.Looper.loop(Looper.java:145)?
+                                                                         at android.app.ActivityThread.main(ActivityThread.java:5951)?
+                                                                         at java.lang.reflect.Method.invoke(Native Method)?
+                                                                         at java.lang.reflect.Method.invoke(Method.java:372)?
+                                                                         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)?
+                                                                         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)?
+                                                                      Caused by: java.lang.NoSuchMethodException: <init> []
+                                                                         at java.lang.Class.getConstructor(Class.java:531)
+                                                                         at java.lang.Class.getDeclaredConstructor(Class.java:510)
+                                                                         at java.lang.Class.newInstance(Class.java:1639)
+                                                                         at android.app.ActivityThread.handleReceiver(ActivityThread.java:2978)?
+                                                                         at android.app.ActivityThread.access$1800(ActivityThread.java:177)?
+                                                                         at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1526)?
+                                                                         at android.os.Handler.dispatchMessage(Handler.java:102)?
+                                                                         at android.os.Looper.loop(Looper.java:145)?
+                                                                         at android.app.ActivityThread.main(ActivityThread.java:5951)?
+                                                                         at java.lang.reflect.Method.invoke(Native Method)?
+                                                                         at java.lang.reflect.Method.invoke(Method.java:372)?
+                                                                         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)?
+                                                                         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)?
